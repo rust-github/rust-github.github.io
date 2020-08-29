@@ -47,9 +47,10 @@ rust project. Let's create them only once, together!
 
 ## Instructions
 
-* create a new empty repository (do not initialize it with a README, a `.gitignore` or a license).
+* create a [new](https://github.com/new) empty repository (do not initialize it
+  with a README, a `.gitignore` or a license).
 * clone the repository on your machine and `cd` into it.
-* run
+* create your project with this template
 
   ```sh
   cargo generate --git https://github.com/rust-github/template.git
@@ -85,3 +86,4 @@ Thank you! 🙏
 
 * [choices explanation](choices.md)
 * [credits](credits.md)
+* [contributing](contributing.md)
