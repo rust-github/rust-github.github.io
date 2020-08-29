@@ -116,4 +116,4 @@ Thank you! 🙏
 
 * [choices explanation](choices.md)
 * [credits](credits.md)
-* [contributing](contributing.md)
+* [contributing](contrib.md)
