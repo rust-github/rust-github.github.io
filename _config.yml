@@ -1,0 +1,11 @@
+title: Rust GitHub Template
+description: GitHub Template for a generic rust project
+
+github:
+  private: false
+  license:
+    name: MIT
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/rust-github/rust-github.github.io"
