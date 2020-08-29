@@ -77,7 +77,12 @@ rust project. Let's create them only once, together!
 
 ### Crates.io
 
-For more info see [this](https://doc.rust-lang.org/cargo/reference/publishing.html).
+Set up your crates.io token in a
+[GitHub secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
+called `CARGO_API_KEY`.
+
+For more info about the crates.io toeken, see
+[The Cargo Book](https://doc.rust-lang.org/cargo/reference/publishing.html).
 
 ### Code coverage
 
