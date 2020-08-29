@@ -1,4 +1,51 @@
-# Instructions
+# Introduction
+
+Creating a new Rust project is as easy as typing `cargo new <project_name>`,
+but often you need more than what `cargo new` gives you.
+
+This is when [cargo generate](https://github.com/ashleygwilliams/cargo-generate)
+comes into play:
+
+> cargo-generate is a developer tool to help you get up and running quickly
+  with a new Rust project by leveraging a pre-existing git repository as a template.
+
+[Rust GitHub Template](https://github.com/rust-github/template) is a template
+for `cargo generate` that aims to be a starting point suitable for the vast
+majority of rust projects that will be hosted on GitHub.
+
+Stop copy pasting tons of markdown and yaml files each time you start a new
+rust project. Let's create them only once, !
+
+## Features
+
+### GitHub Actions
+
+* security checks
+* continuous integration:
+  * tests
+  * rustfmt
+  * clippy
+  * code coverage update
+* continuous delivery:
+  * publish release for mac, linux and windows
+  * publish to cargo
+
+### Documentation
+
+* Installation instructions
+* README badges
+  * crates.io
+  * docs.rs
+  * GitHub Actions CI
+  * Test coverage
+* Licenses (MIT or APACHE)
+* Code of conduct
+* Contributing guidelines
+* Code of conduct
+* Issue templates
+* Pull request template
+
+## Instructions
 
 * create a new empty repository (do not initialize it with a README, a `.gitignore` or a license).
 * clone the repository on your machine and `cd` into it.
@@ -7,6 +54,9 @@
   ```sh
   cargo generate --git https://github.com/rust-github/template.git
   ```
+
+* edit your project: this is just a template, edit your project according to
+  your own needs by adding what's necessary and removing what you don't like.
 
 ## Supporting Rust Github Template
 
