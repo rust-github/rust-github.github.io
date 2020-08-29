@@ -30,7 +30,7 @@ At this point you can either use docker or not:
 
 * Open the link `http://localhost:4000` in your web browser
 
-### Manuale
+### Manually
 
 * Install ruby
 * Install bundler: `$ gem install bundler`
