@@ -27,3 +27,5 @@ our badge: [![Rust GitHub template](https://img.shields.io/badge/Rust%20GitHub-T
   ```html
   <a href="https://rust-github.github.io/"><img alt="Rust GitHub Template" src="https://img.shields.io/badge/Rust%20GitHub-Template-blue" /></a>
   ```
+
+Thank you! 🙏
