@@ -18,7 +18,7 @@ our badge: [![Rust GitHub template](https://img.shields.io/badge/Rust%20GitHub-T
 
 * For Markdown:
 
-  ```md
+  ```markdown
   [![Rust GitHub Template](https://img.shields.io/badge/Rust%20GitHub-Template-blue)](https://rust-github.github.io/)
   ```
 
