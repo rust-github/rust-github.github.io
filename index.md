@@ -16,7 +16,7 @@ the vast majority of rust projects that will be hosted on GitHub.
 Stop copy pasting tons of markdown and yaml files each time you start a new
 rust project. Let's create them only once, together!
 
-## Features
+## Template content
 
 ### GitHub Actions
 
@@ -50,14 +50,39 @@ rust project. Let's create them only once, together!
 * create a [new](https://github.com/new) empty repository (do not initialize it
   with a README, a `.gitignore` or a license).
 * clone the repository on your machine and `cd` into it.
+* Install `cargo generate`
+
+  ```sh
+  cargo install cargo-generate
+  ```
+
 * create your project with this template
 
   ```sh
   cargo generate --git https://github.com/rust-github/template.git
   ```
 
+* replace all occurences of `{[username]}` with your GitHub username.
+  This is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
+  isn't merged.
+  For example if you use [sd](https://github.com/chmln/sd), from the project
+  root directory run the command:
+
+  ```sh
+  sd {[username]} MyUsername
+  ```
+
 * edit your project: this is just a template, edit your project according to
   your own needs by adding what's necessary and removing what you don't like.
+
+### Crates.io
+
+For more info see [this](https://doc.rust-lang.org/cargo/reference/publishing.html).
+
+### Code coverage
+
+* [sign up](https://coveralls.io/sign-up) to coveralls
+* [add](https://coveralls.io/repos/new) your repo
 
 ## Supporting Rust Github Template
 
