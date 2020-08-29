@@ -9,24 +9,24 @@ comes into play:
 > cargo-generate is a developer tool to help you get up and running quickly
   with a new Rust project by leveraging a pre-existing git repository as a template.
 
-[Rust GitHub Template](https://github.com/rust-github/template) is a template
-for `cargo generate` that aims to be a starting point suitable for the vast
-majority of rust projects that will be hosted on GitHub.
+[Rust GitHub Template](https://github.com/rust-github/template) (this project)
+is a template for `cargo generate` that aims to be a starting point suitable for
+the vast majority of rust projects that will be hosted on GitHub.
 
 Stop copy pasting tons of markdown and yaml files each time you start a new
-rust project. Let's create them only once, !
+rust project. Let's create them only once, together!
 
 ## Features
 
 ### GitHub Actions
 
-* security checks
-* continuous integration:
+* [security checks](https://github.com/rust-github/template/blob/master/.github/workflows/audit.yml)
+* [continuous integration](https://github.com/rust-github/template/blob/master/.github/workflows/ci.yml):
   * tests
   * rustfmt
   * clippy
   * code coverage update
-* continuous delivery:
+* [continuous delivery](https://github.com/rust-github/template/blob/master/.github/workflows/cd.yml):
   * publish release for mac, linux and windows
   * publish to cargo
 
@@ -39,11 +39,11 @@ rust project. Let's create them only once, !
   * GitHub Actions CI
   * Test coverage
 * Licenses (MIT or APACHE)
-* Code of conduct
-* Contributing guidelines
-* Code of conduct
-* Issue templates
-* Pull request template
+* [Changelog](https://github.com/rust-github/template/blob/master/CHANGELOG.md)
+* [Contributing guidelines](https://github.com/rust-github/template/blob/master/CONTRIBUTING.md)
+* [Code of conduct](https://github.com/rust-github/template/blob/master/CODE_OF_CONDUCT.md)
+* [Issue templates](https://github.com/rust-github/template/tree/master/.github/ISSUE_TEMPLATE)
+* [Pull request template](https://github.com/rust-github/template/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
 
 ## Instructions
 
