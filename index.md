@@ -47,9 +47,6 @@ rust project. Let's create them only once, together!
 
 ## Instructions
 
-* create a [new](https://github.com/new) empty repository (do not initialize it
-  with a README, a `.gitignore` or a license).
-* clone the repository on your machine and `cd` into it.
 * Install `cargo generate`
 
   ```sh
@@ -62,18 +59,29 @@ rust project. Let's create them only once, together!
   cargo generate --git https://github.com/rust-github/template.git
   ```
 
-* replace all occurences of `{[username]}` with your GitHub username.
-  This is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
-  isn't merged.
-  For example if you use [sd](https://github.com/chmln/sd), from the project
-  root directory run the command:
+* `cd` into your project
+
+* replace all occurences of `{[username]}` with your GitHub username and all
+  occurences of `${[` with `${{`.
+  For example if you use [sd](https://github.com/chmln/sd) and
+  [fd](https://github.com/sharkdp/fd), from the project root directory run the
+  command:
 
   ```sh
-  sd {[username]} MyUsername
+  sd -s '{[username]}' MyUsername $(fd --hidden --type file)
+  sd -s '${['          '${{'      $(fd --hidden --type file)
   ```
+
+  Username replacement is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
+  isn't merged.
 
 * edit your project: this is just a template, edit your project according to
   your own needs by adding what's necessary and removing what you don't like.
+
+* create a [new](https://github.com/new) empty repository (do not initialize it
+  with a README, a `.gitignore` or a license).
+
+* follow GitHub instruction to "push an existing repository from the command line"
 
 ### Crates.io
 
