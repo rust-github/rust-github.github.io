@@ -81,4 +81,7 @@ it, you can use our badge:
 
 Thank you! 🙏
 
-## [Credits](credits.md)
+## Links
+
+* [choices explanation](choices.md)
+* [credits](credits.md)
