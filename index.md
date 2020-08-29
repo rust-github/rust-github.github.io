@@ -63,8 +63,9 @@ rust project. Let's create them only once, together!
 The best way to support the project is to contribute to it either by reporting
 problems, ideas or sending pull requests.
 
-If you created your project by using Rust GitHub Template, and you want to show it, you can use
-our badge: [![Rust GitHub template](https://img.shields.io/badge/Rust%20GitHub-Template-blue)](https://rust-github.github.io/)
+If you created your project by using Rust GitHub Template, and you want to show
+it, you can use our badge:
+[![Rust GitHub template](https://img.shields.io/badge/Rust%20GitHub-Template-blue)](https://rust-github.github.io/)
 
 * For Markdown:
 
@@ -79,3 +80,5 @@ our badge: [![Rust GitHub template](https://img.shields.io/badge/Rust%20GitHub-T
   ```
 
 Thank you! 🙏
+
+## [Credits](credits.md)
