@@ -16,6 +16,8 @@ the vast majority of rust projects that will be hosted on GitHub.
 Stop copy pasting tons of markdown and yaml files each time you start a new
 rust project. Let's create them only once, together!
 
+You can see an example of this template [here](https://github.com/rust-github/rust-gh-example).
+
 ## Template content
 
 ### GitHub Actions
