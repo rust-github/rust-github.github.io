@@ -49,10 +49,6 @@ rust project. Let's create them only once, together!
 
 ### Project creation
 
-You can create your project manually or with a python script.
-
-#### Manually
-
 {% raw  %}
 
 * Install `cargo generate`
@@ -69,39 +65,28 @@ You can create your project manually or with a python script.
 
 * `cd` into your project
 
-* replace all occurences of:
-  * `{[username]}` with your GitHub username
-  * `${[` with `${{`.
+* replace all occurences of `{[username]}` with your GitHub username
 
   For example if you use [sd](https://github.com/chmln/sd) and
   [fd](https://github.com/sharkdp/fd), from the project root directory run the
-  following commands:
+  following command:
 
   ```sh
-  sd -s '{[username]}' MyUsername $(fd --hidden --type file)
-  sd -s '${['          '${{'      $(fd --hidden --type file)
+  sd -s '{[username]}' MyUsername $(fd --hidden -e .md -e .yml)
   ```
 
   Username replacement is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
   isn't merged.
 
-{% endraw %}
-
-#### With a script
-
-Download and run new_proj.py in the directory where you want to create your project.
-
-### Edit your project
-
-This is just a template, edit your project according to
-your own needs by adding what's necessary and removing what you don't like.
-
-### Publish to GitHub
+* this is just a template, edit your project according to your own needs by
+  adding what's necessary and removing what you don't like.
 
 * create a [new](https://github.com/new) empty repository (do not initialize it
   with a README, a `.gitignore` or a license).
 
 * follow GitHub instruction to "push an existing repository from the command line"
+
+{% endraw %}
 
 ### Crates.io
 
