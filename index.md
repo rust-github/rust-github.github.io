@@ -72,7 +72,7 @@ rust project. Let's create them only once, together!
   following command:
 
   ```sh
-  sd -s '{[username]}' MyUsername $(fd --hidden -e .md -e .yml)
+  sd -s '{[username]}' MyUsername $(fd --hidden -e .md -e .yml -e .toml)
   ```
 
   Username replacement is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
