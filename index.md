@@ -14,7 +14,7 @@ is a template for `cargo generate` that aims to be a starting point suitable for
 the vast majority of rust projects that will be hosted on GitHub.
 
 Stop copy pasting tons of markdown and yaml files each time you start a new
-rust project. Let's create them only once, together!
+rust project. Let's write them only once, together!
 
 You can see an example of this template [here](https://github.com/rust-github/rust-gh-example).
 
@@ -53,21 +53,21 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 
 {% raw  %}
 
-* Install `cargo generate`
+* Install `cargo generate`.
 
   ```sh
   cargo install cargo-generate
   ```
 
-* create your project with this template
+* create your project with this template.
 
   ```sh
   cargo generate --git https://github.com/rust-github/template.git
   ```
 
-* `cd` into your project
+* `cd` into your project.
 
-* replace all occurences of `{[username]}` with your GitHub username
+* replace all occurences of `{[username]}` with your GitHub username.
 
   For example if you use [sd](https://github.com/chmln/sd) and
   [fd](https://github.com/sharkdp/fd), from the project root directory run the
@@ -80,13 +80,13 @@ You can see an example of this template [here](https://github.com/rust-github/ru
   Username replacement is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
   isn't merged.
 
-* this is just a template, edit your project according to your own needs by
+* this is just a template, so edit your project according to your own needs by
   adding what's necessary and removing what you don't like.
 
 * create a [new](https://github.com/new) empty repository (do not initialize it
   with a README, a `.gitignore` or a license).
 
-* follow GitHub instruction to "push an existing repository from the command line"
+* follow GitHub instruction to "push an existing repository from the command line".
 
 {% endraw %}
 
@@ -96,17 +96,17 @@ Set up your crates.io token in a
 [GitHub secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 called `CARGO_API_KEY`.
 
-For more info about the crates.io toeken, see
+For more info about the crates.io tokens, see
 [The Cargo Book](https://doc.rust-lang.org/cargo/reference/publishing.html).
 
 ### Code coverage
 
-* [sign up](https://coveralls.io/sign-up) to coveralls
-* [add](https://coveralls.io/repos/new) your repo
+* [sign up](https://coveralls.io/sign-up) to coveralls.
+* [add](https://coveralls.io/repos/new) your repo.
 
 ## Supporting Rust Github Template
 
-The best way to support the project is to contribute to it either by reporting
+The best way to support the project is to contribute to it by reporting
 problems, ideas or sending pull requests.
 
 If you created your project by using Rust GitHub Template, and you want to show
