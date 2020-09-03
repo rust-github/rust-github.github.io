@@ -15,6 +15,8 @@ Try to do one pull request per change.
 
 ## GitHub Actions
 
+{% raw  %}
+
 At the moment GitHub actions have variables with a strange syntax:
 `{{ "{{ github.variable " }}}}` instead of `{{ github.variable }}`.
 
@@ -25,3 +27,5 @@ one.
 When a version > 0.5.0 of `cargo generate` is released, we will be able to use
 [raw](https://shopify.github.io/liquid/tags/raw/) tags, in order to make the
 actions cleaner.
+
+{% endraw  %}
