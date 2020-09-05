@@ -23,12 +23,14 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 ### GitHub Actions
 
 * [security checks](https://github.com/rust-github/template/blob/master/.github/workflows/audit.yml)
-* [continuous integration](https://github.com/rust-github/template/blob/master/.github/workflows/ci.yml):
+* [continuous integration](https://github.com/rust-github/template/blob/master/.github/workflows/ci.yml).
+  On pull request or push:
   * tests
   * rustfmt
   * clippy
   * code coverage update
-* [continuous delivery](https://github.com/rust-github/template/blob/master/.github/workflows/cd.yml):
+* [continuous delivery](https://github.com/rust-github/template/blob/master/.github/workflows/cd.yml).
+  On every git tag in the `[0-9]+.[0-9]+.[0-9]+` format (for example `0.2.14`):
   * publish release for mac, linux and windows
   * publish to cargo
 
