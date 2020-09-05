@@ -45,6 +45,7 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 * [Contributing guidelines](https://github.com/rust-github/template/blob/master/CONTRIBUTING.md)
 * [Code of conduct](https://github.com/rust-github/template/blob/master/CODE_OF_CONDUCT.md)
 * [Issue templates](https://github.com/rust-github/template/tree/master/.github/ISSUE_TEMPLATE)
+  (see [result](https://github.com/rust-github/rust-gh-example/issues/new/choose))
 * [Pull request template](https://github.com/rust-github/template/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
 
 ## Instructions
