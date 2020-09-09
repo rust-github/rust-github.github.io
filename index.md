@@ -107,6 +107,20 @@ For more info about the crates.io tokens, see
 * [sign up](https://coveralls.io/sign-up) to coveralls.
 * [add](https://coveralls.io/repos/new) your repo.
 
+### Publish
+
+When you are ready to publish the first version of your application, run:
+
+```sh
+git tag -a 0.1.0
+git push --follow-tags
+```
+
+This tag should trigger the continuous deployment, that will:
+
+* publish your application on crates.io
+* publish the binaries on GitHub Releases
+
 ## Supporting Rust Github Template
 
 The best way to support the project is to contribute to it by reporting
