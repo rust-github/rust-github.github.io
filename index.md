@@ -72,12 +72,18 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 
 * replace all occurences of `{[username]}` with your GitHub username.
 
-  For example if you use [sd](https://github.com/chmln/sd) and
-  [fd](https://github.com/sharkdp/fd), from the project root directory run the
-  following command:
+  For example if you want to use the cross-platform tools
+  [sd](https://github.com/chmln/sd) and [fd](https://github.com/sharkdp/fd),
+  from the project root directory run:
 
   ```sh
   sd -s '{[username]}' MyUsername $(fd --hidden -e .md -e .yml -e .toml)
+  ```
+
+  Otherwise, if you are on a UNIX operating system run:
+
+  ```sh
+  sed -i 's#{\[username\]}#MyUsername#g' $(find . -type f -name '*.md' -o -name '*.yml' -o -name '*.toml')
   ```
 
   Username replacement is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
