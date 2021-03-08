@@ -56,7 +56,7 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 
 {% raw  %}
 
-* Install `cargo generate`.
+* Install `cargo generate` (version >= 6.0).
 
   ```sh
   cargo install cargo-generate
@@ -69,25 +69,6 @@ You can see an example of this template [here](https://github.com/rust-github/ru
   ```
 
 * `cd` into your project.
-
-* replace all occurences of `{[username]}` with your GitHub username.
-
-  For example if you want to use the cross-platform tools
-  [sd](https://github.com/chmln/sd) and [fd](https://github.com/sharkdp/fd),
-  from the project root directory run:
-
-  ```sh
-  sd -s '{[username]}' MyUsername $(fd --hidden -e .md -e .yml -e .toml)
-  ```
-
-  Otherwise, if you are on a UNIX operating system run:
-
-  ```sh
-  sed -i 's#{\[username\]}#MyUsername#g' $(find . -type f -name '*.md' -o -name '*.yml' -o -name '*.toml')
-  ```
-
-  Username replacement is required until [#164](https://github.com/ashleygwilliams/cargo-generate/pull/164)
-  isn't merged.
 
 * this is just a template, so edit your project according to your own needs by
   adding what's necessary and removing what you don't like.
