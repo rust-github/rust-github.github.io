@@ -22,14 +22,14 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 
 ### GitHub Actions
 
-* [security checks](https://github.com/rust-github/template/blob/master/.github/workflows/audit.yml)
-* [continuous integration](https://github.com/rust-github/template/blob/master/.github/workflows/ci.yml) -
+* [security checks](https://github.com/rust-github/template/blob/main/.github/workflows/audit.yml)
+* [continuous integration](https://github.com/rust-github/template/blob/main/.github/workflows/ci.yml) -
   on pull request or push:
   * tests
   * rustfmt
   * clippy
   * code coverage update
-* [continuous delivery](https://github.com/rust-github/template/blob/master/.github/workflows/cd.yml) -
+* [continuous delivery](https://github.com/rust-github/template/blob/main/.github/workflows/cd.yml) -
   on every git tag in the `[0-9]+.[0-9]+.[0-9]+` format (for example `0.2.14`):
   * publish release for mac, linux and windows
   * publish to cargo
@@ -43,12 +43,12 @@ You can see an example of this template [here](https://github.com/rust-github/ru
   * GitHub Actions CI
   * Test coverage
 * Licenses (MIT or APACHE)
-* [Changelog](https://github.com/rust-github/template/blob/master/CHANGELOG.md)
-* [Contributing guidelines](https://github.com/rust-github/template/blob/master/CONTRIBUTING.md)
-* [Code of conduct](https://github.com/rust-github/template/blob/master/CODE_OF_CONDUCT.md)
-* [Issue templates](https://github.com/rust-github/template/tree/master/.github/ISSUE_TEMPLATE)
+* [Changelog](https://github.com/rust-github/template/blob/main/CHANGELOG.md)
+* [Contributing guidelines](https://github.com/rust-github/template/blob/main/CONTRIBUTING.md)
+* [Code of conduct](https://github.com/rust-github/template/blob/main/CODE_OF_CONDUCT.md)
+* [Issue templates](https://github.com/rust-github/template/tree/main/.github/ISSUE_TEMPLATE)
   (see [result](https://github.com/rust-github/rust-gh-example/issues/new/choose))
-* [Pull request template](https://github.com/rust-github/template/blob/master/.github/PULL_REQUEST_TEMPLATE.md)
+* [Pull request template](https://github.com/rust-github/template/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
 
 ## Instructions
 

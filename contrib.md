@@ -33,7 +33,7 @@ GitHub actions variable are written in the format
 Of course, when doing `cargo generate` the ugly version is replaced with the expected
 one.
 
-See [Continuous delivery](https://github.com/rust-github/template/blob/master/.github/workflows/cd.yml)
+See [Continuous delivery](https://github.com/rust-github/template/blob/main/.github/workflows/cd.yml)
 as an example.
 
 {% endraw  %}
