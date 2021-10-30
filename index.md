@@ -3,7 +3,7 @@
 Creating a new Rust project is as easy as typing `cargo new <project_name>`,
 but often you need more than what `cargo new` gives you.
 
-This is when [cargo generate](https://github.com/ashleygwilliams/cargo-generate)
+This is when [cargo generate](https://github.com/cargo-generate/cargo-generate)
 comes into play:
 
 > cargo-generate is a developer tool to help you get up and running quickly
