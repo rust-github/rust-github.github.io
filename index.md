@@ -96,6 +96,8 @@ For more info about the crates.io tokens, see
 
 ### Publish
 
+If this is your first ever crate, [ensure your email address is verified on crates.io](https://crates.io/settings/profile) before you publish.
+
 When you are ready to publish the first version of your application, run:
 
 ```sh
