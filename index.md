@@ -1,7 +1,7 @@
 # Introduction
 
-Creating a new Rust project is as easy as typing `cargo new <project_name>`,
-but often you need more than what `cargo new` gives you.
+Creating a new Rust project is as easy as typing `cargo new <project_name>`
+but often, you need more than what `cargo new` gives you.
 
 This is when [cargo generate](https://github.com/cargo-generate/cargo-generate)
 comes into play:
@@ -11,26 +11,28 @@ comes into play:
 
 [Rust GitHub Template](https://github.com/rust-github/template) (this project)
 is a template for `cargo generate` that aims to be a starting point suitable for
-the vast majority of rust projects that will be hosted on GitHub.
+rust projects hosted on GitHub.
 
-Stop copy pasting tons of markdown and yaml files each time you start a new
+Stop copy-pasting tons of markdown and yaml files each time you start a new
 rust project. Let's write them only once, together!
 
-You can see an example of this template [here](https://github.com/rust-github/rust-gh-example).
+You can see an example project generated with this template [here](https://github.com/rust-github/rust-gh-example).
 
 ## Template content
 
 ### GitHub Actions
 
-* [security checks](https://github.com/rust-github/template/blob/main/.github/workflows/audit.yml)
-* [continuous integration](https://github.com/rust-github/template/blob/main/.github/workflows/ci.yml) -
+* [security checks](https://github.com/rust-github/template/blob/main/template/.github/workflows/audit.yml)
+* [continuous integration](https://github.com/rust-github/template/blob/main/template/.github/workflows/ci.yml) -
   on pull request or push:
   * tests
   * rustfmt
   * clippy
-  * code coverage update
-* [continuous delivery](https://github.com/rust-github/template/blob/main/.github/workflows/cd.yml) -
-  on every git tag in the `[0-9]+.[0-9]+.[0-9]+` format (for example `0.2.14`):
+  * docs
+  * publish-dry-run
+  * code coverage
+* [continuous delivery](https://github.com/rust-github/template/blob/main/template/.github/workflows/cd.yml) -
+  on every git tag in the `[v]?[0-9]+.[0-9]+.[0-9]+` format (for example `v0.2.14`):
   * publish release for mac, linux and windows
   * publish to cargo
 
@@ -54,15 +56,13 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 
 ### Project creation
 
-{% raw  %}
-
-* Install `cargo generate` (version >= 6.0).
+* Install `cargo generate` (version >= 11.0).
 
   ```sh
-  cargo install cargo-generate
+  cargo install cargo-generate --locked
   ```
 
-* create your project with this template.
+* Create your project with this template.
 
   ```sh
   cargo generate --git https://github.com/rust-github/template.git
@@ -70,15 +70,13 @@ You can see an example of this template [here](https://github.com/rust-github/ru
 
 * `cd` into your project.
 
-* this is just a template, so edit your project according to your own needs by
+* Edit your project according to your own needs by
   adding what's necessary and removing what you don't like.
 
-* create a [new](https://github.com/new) empty repository (do not initialize it
+* Create a [new](https://github.com/new) empty repository (do not initialize it
   with a README, a `.gitignore` or a license).
 
-* follow GitHub instruction to "push an existing repository from the command line".
-
-{% endraw %}
+* Follow GitHub instruction to "push an existing repository from the command line".
 
 ### Crates.io
 
@@ -91,8 +89,8 @@ For more info about the crates.io tokens, see
 
 ### Code coverage
 
-* [sign up](https://coveralls.io/sign-up) to coveralls.
-* [add](https://coveralls.io/repos/new) your repo.
+* [Sign up](https://coveralls.io/sign-up) to coveralls.
+* [Add](https://coveralls.io/repos/new) your repo.
 
 ### Publish
 
@@ -107,8 +105,8 @@ git push --follow-tags
 
 This tag should trigger the continuous deployment, that will:
 
-* publish your application on crates.io
-* publish the binaries on GitHub Releases
+* Publish your application on crates.io
+* Publish the binaries on GitHub Releases
 
 ## Supporting Rust Github Template
 
@@ -137,4 +135,3 @@ Thank you! 🙏
 
 * [choices explanation](choices.md)
 * [credits](credits.md)
-* [contributing](contrib.md)
