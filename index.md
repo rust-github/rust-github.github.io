@@ -76,7 +76,7 @@ You can see an example project generated with this template [here](https://githu
 * Create a [new](https://github.com/new) empty repository (do not initialize it
   with a README, a `.gitignore` or a license).
 
-* Follow GitHub instruction to "push an existing repository from the command line".
+* Follow GitHub instructions to "push an existing repository from the command line".
 
 ### Crates.io
 
