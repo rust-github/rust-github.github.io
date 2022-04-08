@@ -13,6 +13,8 @@ comes into play:
 is a template for `cargo generate` that aims to be a starting point suitable for
 rust projects hosted on GitHub.
 
+![example](https://user-images.githubusercontent.com/11428655/162539387-67de9fde-26b4-490f-9085-8f8509932a5b.gif)
+
 Stop copy-pasting tons of markdown and yaml files each time you start a new
 rust project. Let's write them only once, together!
 
