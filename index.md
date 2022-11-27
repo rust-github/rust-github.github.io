@@ -84,7 +84,7 @@ You can see an example project generated with this template [here](https://githu
 
 Set up your crates.io token in a
 [GitHub secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
-called `CARGO_API_KEY`.
+called `CARGO_REGISTRY_TOKEN`.
 
 For more info about the crates.io tokens, see
 [The Cargo Book](https://doc.rust-lang.org/cargo/reference/publishing.html).
