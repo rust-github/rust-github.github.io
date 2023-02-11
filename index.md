@@ -32,7 +32,6 @@ You can see an example project generated with this template [here](https://githu
   * clippy
   * docs
   * publish-dry-run
-  * code coverage
 * [continuous delivery](https://github.com/rust-github/template/blob/main/template/.github/workflows/cd.yml) -
   on every git tag in the `[v]?[0-9]+.[0-9]+.[0-9]+` format (for example `v0.2.14`):
   * publish release for mac, linux and windows
@@ -45,7 +44,6 @@ You can see an example project generated with this template [here](https://githu
   * crates.io
   * docs.rs
   * GitHub Actions CI
-  * Test coverage
 * Licenses (MIT or APACHE)
 * [Changelog](https://github.com/rust-github/template/blob/main/CHANGELOG.md)
 * [Contributing guidelines](https://github.com/rust-github/template/blob/main/CONTRIBUTING.md)
@@ -88,11 +86,6 @@ called `CARGO_REGISTRY_TOKEN`.
 
 For more info about the crates.io tokens, see
 [The Cargo Book](https://doc.rust-lang.org/cargo/reference/publishing.html).
-
-### Code coverage
-
-* [Sign up](https://coveralls.io/sign-up) to coveralls.
-* [Add](https://coveralls.io/repos/new) your repo.
 
 ### Publish
 
